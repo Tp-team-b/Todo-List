@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'notosans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+.todo-background {
+    background-color: #FFFCE3;
+    position: relative;
+    width: 1512px;
+    height: 982px;
+}
+
+.todo-list-template {
+    position: absolute;
+    width: 688.5px;
+    height: 835px;
+    left: 412px;
+    top: 74px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.todo-list-title {
+    position: absolute;
+    width: 277px;
+    height: 87px;
+    left: 617px;
+    top: 127px;
+
+    font-family: 'notosans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 93px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.todo-line {
+    position: absolute;
+    width: 405px;
+    left: 540px;
+    top: 348px;
+
+    border: 3px solid #000000;
+    transform: rotate(0deg);
+}
+
+.todo-content {
+    position: absolute;
+    width: 174px;
+    height: 70px;
+    left: 656px;
+    top: 278px;
+
+    font-family: 'notosans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.check-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 55px;
+    height: 53px;
+    left: 967px;
+    top: 295px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 15px;
+}
+
+.group1 {
+    position: static;
+    width: 688.5px;
+    height: 835px;
+    left: 412px;
+    top: 74px;
+}
+
+.rabbit {
+    position: absolute;
+    width: 245px;
+    height: 234px;
+    left: 1246px;
+    top: 675px;
+    background: url(../../../public/image/rabbit.png);
+}
+
+.pencil {
+    position: absolute;
+    width: 60px;
+    height: 63.1px;
+    left: 1246px;
+    top: 815px;
+    background: url(../../../public/image/pencil.png);
+}
+
+.group2 {
+    position: static;
+    width: 245px;
+    height: 234px;
+    left: 1246px;
+    top: 675px;
+}
