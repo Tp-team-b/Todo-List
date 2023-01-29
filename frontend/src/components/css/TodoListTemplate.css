@@ -45,7 +45,7 @@
     left: 540px;
     top: 348px;
 
-    border: 3px solid #000000;
+    border: 1.5px solid #000000;
     transform: rotate(0deg);
 }
 
@@ -72,8 +72,8 @@
     position: absolute;
     width: 55px;
     height: 53px;
-    left: 967px;
-    top: 295px;
+    left: 955px;
+    top: 300px;
 
     background: #FFFFFF;
     border: 3px solid #000000;
